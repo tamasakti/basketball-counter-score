@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Basketball App</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="score">
+        <div class="home">
+            <h1>Home</h1>
+            <h3 id="displayScoreHome">0</h3>
+            <button id="addOne" onclick="addOneHome()" class="btn">+1</button>
+            <button id="addTwo" onclick="addTwoHome()" class="btn">+2</button>
+            <button id="addThree" onclick="addThreeHome()" class="btn">+3</button>
+        </div>
+        <div class="guest">
+            <h1>Guest</h1>
+            <h3 id="displayScoreGuest">0</h3>
+            <button  onclick="addOneGuest()" class="btn">+1</button>
+            <button  onclick="addTwoGuest()" class="btn">+2</button>
+            <button  onclick="addThreeGuest()" class="btn">+3</button>
+        </div>
+    </div>
+    <center>
+        <div class="btn-reset">
+        <button onclick="resetHome()" class="btn-resetgame">Reset Score</button>
+        <button onclick="resetGuest()" class="btn-resetgame">Reset Score</button>
+    </center>
+    </div>
+        <div class="footer">
+            <h1>Created by @gumilangtama</h1>
+        </div>
+    </div>      
+    </div>
+    <br />
+   
+    <script src="index.js"></script>
+</body>
+</html>
